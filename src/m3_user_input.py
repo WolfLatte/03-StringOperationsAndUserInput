@@ -1,5 +1,5 @@
 ###############################################################################
-# TODO: 1. (5 pts)
+# DONE: 1. (5 pts)
 #   Immediately below this _TODO_, write code that:
 #     - Asks the user what their name is
 #     - Waits for the user to input their name and hit enter
@@ -27,6 +27,9 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+
+username = input("Enter Name:")
+print(f"Hello {username}! It's nice to meet you!")
 
 ###############################################################################
 # TODO: 2. (5 pt)
@@ -72,3 +75,7 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+import math
+number = float(input("Enter favorite number:"))
+number = (int(math.floor(number+0.5)))
+print(f"Woah {username}! Looks like you like the number {number}! Good pick!")
